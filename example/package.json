@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env DEBUG=vite-plugin-mkd:* vite",
+    "build": "cross-env DEBUG=vite-plugin-mkd:* vite build"
+  },
+  "dependencies": {
+    "@vueuse/head": "^0.7.5",
+    "vue": "^3.2.30",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.1.0",
+    "@vue/compiler-sfc": "^3.2.30",
+    "cross-env": "^7.0.3",
+    "markdown-it-prism": "^2.2.2",
+    "prismjs": "^1.26.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13",
+    "vite-plugin-inspect": "^0.3.13",
+    "vite-plugin-mkd": "workspace:*",
+    "vite-plugin-pages": "^0.20.2"
+  }
+}
